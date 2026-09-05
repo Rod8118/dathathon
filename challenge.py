@@ -514,7 +514,7 @@ def validar_clasificacion(df_resultado):
 
 
 # Ruta del dataset
-ruta = r"diabetes_012_health_indicators_BRFSS2015.csv"
+ruta = r"C:\Users\Asus Vivobook\Downloads\diabetes_012_health_indicators_BRFSS2015.csv"
 
 # Carga y valida los datos
 df = cargar_datos(ruta)
@@ -857,3 +857,5 @@ graficar_pesos_estadisticos(
 graficar_validacion_riesgo(
     resultado_validacion
 )
+
+ 
